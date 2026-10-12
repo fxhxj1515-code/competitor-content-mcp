@@ -1,4 +1,11 @@
+[English](README.en.md) | **简体中文**
+
 # 对标拆解 · 内容获客（MCP Server）
+
+> **English summary:** A hosted **remote MCP server** (`https://kpo.hwzs.club/mcp`, Streamable HTTP)
+> for **Chinese-language content marketing**: tear down competitor accounts, extract real customer
+> pain points, and generate voice-over / short-video scripts. Requires your own API key.
+> [Full English README →](README.en.md)
 
 一个**托管式远程 MCP 服务**：让 AI 直接帮你拆解同行账号、挖真实痛点、写口播/短视频脚本。
 
@@ -99,13 +106,19 @@ WorkBuddy 用户可以直接在**连接器市场**搜「对标拆解 · 内容�
 
 ---
 
-## English (short)
+## English
 
-**Competitor Teardown & Content Studio** — a hosted **remote MCP server** (`https://kpo.hwzs.club/mcp`, Streamable HTTP) that helps you analyze competitor accounts, extract real pain points, and generate short-video/voice-over scripts.
+完整英文说明见 **[README.en.md](README.en.md)**。
 
-Four tools: `submit_competitor_analysis`, `submit_pain_points`, `submit_script`, `get_task` (the first three are asynchronous — they return a task id, poll with `get_task`).
+**Competitor Teardown & Content Studio** — a hosted **remote MCP server** (`https://kpo.hwzs.club/mcp`,
+Streamable HTTP) for **Chinese-language content marketing**: analyze competitor accounts, extract real
+customer pain points, and write voice-over / short-video scripts.
 
-You need your own **Yunjinglink API key** (all model calls are billed to your own account; we never store your key — it is only passed through as a `Bearer` header, and only a SHA-256 prefix is logged for troubleshooting).
+Four tools: `submit_competitor_analysis`, `submit_pain_points`, `submit_script`, `get_task`.
+The first three are asynchronous (they return a task id; poll with `get_task`).
+
+You need your own **Yunjinglink API key** — all model calls are billed to your own account, and we
+never store the key (it is passed through as a `Bearer` header; only a SHA-256 prefix is logged).
 
 Configure it in any MCP client:
 
@@ -116,4 +129,4 @@ Configure it in any MCP client:
   "headers": { "Authorization": "Bearer YOUR_API_KEY" } } } }
 ```
 
-Contact: 江港科技 (hwzs.club)
+Contact: 江港科技 · hwzs.club
