@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "club.hwzs/competitor-content-mcp",
+  "title": "Competitor Teardown & Content Studio",
+  "description": "Chinese content marketing: competitor teardown, real pain points, ready-to-shoot scripts. BYO key.",
+  "repository": {
+    "url": "https://github.com/fxhxj1515-code/competitor-content-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://kpo.hwzs.club/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Your Yunjinglink API key, sent exactly as: Bearer sk-...",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
