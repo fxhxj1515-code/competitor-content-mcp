@@ -1,6 +1,6 @@
 [English](README.en.md) | **简体中文**
 
-# 对标拆解 · 内容获客（MCP Server）
+# 同行拆解（MCP Server）
 
 > **English summary:** A hosted **remote MCP server** (`https://kpo.hwzs.club/mcp`, Streamable HTTP)
 > for **Chinese-language content marketing**: tear down competitor accounts, extract real customer
@@ -65,7 +65,7 @@
 
 ### 在 WorkBuddy 里接入
 
-WorkBuddy 用户可以直接在**连接器市场**搜「对标拆解 · 内容获客」安装，装完会弹表单让你填 Key。
+WorkBuddy 用户可以直接在**连接器市场**搜「同行拆解」安装，装完会弹表单让你填 Key。
 本仓库的 `connector/` 目录就是提交给它的那份包（`connector-meta.json` / `mcp.json` / `token-schema.json` / `icon.svg` / `skills/`）。
 
 ---

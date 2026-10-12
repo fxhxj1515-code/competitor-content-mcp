@@ -54,7 +54,7 @@ No commands to memorize. State your need in plain language (see the table above)
 
 ### On WorkBuddy
 
-WorkBuddy users can install **「对标拆解 · 内容获客」** directly from the connector marketplace —
+WorkBuddy users can install **「同行拆解」** directly from the connector marketplace —
 a form will ask for your key. The `connector/` folder in this repo is exactly the package submitted
 to that marketplace (`connector-meta.json`, `mcp.json`, `token-schema.json`, `icon.svg`, `skills/`).
 
