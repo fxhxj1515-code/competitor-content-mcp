@@ -1,0 +1,18 @@
+{
+  "title": "连接云境链",
+  "title_en": "Connect Yunjinglink",
+  "description": "填入你的云境链 API Key，就能在 WorkBuddy 里拆解对标账号、生成脚本。密钥仅保存在你本机的 ~/.workbuddy 目录下，不会上传到云端。",
+  "description_en": "Paste your Yunjinglink API key to analyze competitors and generate scripts inside WorkBuddy. The key is stored locally on your machine only.",
+  "docUrl": "https://www.yunjinglink.com/normal/login/?registration=1&code=800285",
+  "docLabel": "还没有 Key？点这里免费注册获取",
+  "fields": [
+    {
+      "key": "YUNJING_KEY",
+      "label": "云境链 API Key",
+      "type": "password",
+      "required": true,
+      "placeholder": "在云境链后台「API 密钥」里复制的那串密钥（通常以 sk 开头）",
+      "description": "用于调用云境链的模型，费用由你的云境链账户承担。"
+    }
+  ]
+}

@@ -7,9 +7,18 @@ __pycache__/
 *.pyc
 .venv/
 venv/
-.env
 
-# 别把任何凭据提交进来
-*token*
-*secret*
+# 凭据：只挡真正的凭据文件
+#
+# ⚠️ 教训（2026-10-13 实测）：原来这里写的是 `*token*`，
+#    本意是"别把 key 提交上去"，结果把 connector/token-schema.json
+#    也一起挡住了 —— 那是连接器包里**必须公开**的正规文件（描述用户怎么填 Key 的表单）。
+#    所以：匹配模式要精确到"凭据文件本身"，不要用 `*token*` 这种宽泛通配。
+.env
+.env.*
 *.key
+*.pem
+*.p12
+credentials.json
+secrets.json
+*secret*
