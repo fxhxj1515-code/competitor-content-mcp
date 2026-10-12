@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "yunjinglink-content": {
+      "type": "streamableHttp",
+      "url": "https://kpo.hwzs.club/mcp",
+      "headers": { "Authorization": "Bearer ${YUNJING_KEY}" },
+      "timeout": 30000
+    }
+  }
+}

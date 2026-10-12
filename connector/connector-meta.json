@@ -1,0 +1,23 @@
+{
+  "name": "对标拆解 · 内容获客",
+  "name_zh": "对标拆解 · 内容获客",
+  "name_en": "Competitor Teardown & Content Studio",
+  "description": "Tear down competitor accounts, extract real pain points, and generate scripts. Requires a Yunjinglink API key.",
+  "description_zh": "拆解对标账号、挖出真实痛点、生成口播与短视频脚本。需填写云境链 API Key。",
+  "description_en": "Tear down competitor accounts, extract real pain points, and generate scripts. Requires a Yunjinglink API key.",
+  "source": "yunjinglink-content",
+  "type": "mcp",
+  "version": "1.0.0",
+  "auth_mode": "token",
+  "minWorkbuddyVersion": "4.24.0",
+  "examples_zh": [
+    "帮我拆一下这个对标账号，内容我贴在下面",
+    "家政行业，想入行的中年女性，给我 30 条真实痛点",
+    "用第二个痛点写一条 30 秒抖音口播脚本"
+  ],
+  "examples_en": [
+    "Analyze this competitor account from the text I pasted below",
+    "Give me 30 real pain points for housekeeping customers among middle-aged career changers",
+    "Turn the second pain point into a 30-second Douyin script"
+  ]
+}
